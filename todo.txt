@@ -1,0 +1,19 @@
+1. Create PostList & Post components. Likewise Commentlist & Comment comp.
+2. Create a PostDetail component. It has two child components - PostInformation
+CommentList.
+
+1. change /post to /posts
+2. post detail page should be under the url /posts/:id
+3. Remove post detail and userprofile form nav bar
+4. In comments sections, dont show user Id. Rather display only the user name
+and make it clickable. 
+5. Change userdetail/:id to users/:id
+6. In userdetail page, show name, id, email id . remove back button
+7. Show only 10 posts in home page
+
+Improve Css styling
+Deploy to Netlify using githhub
+
+
+8. In Posts page add feature to filter based on post title
+

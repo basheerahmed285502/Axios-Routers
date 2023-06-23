@@ -1,0 +1,85 @@
+body{
+  background-color: black;
+}
+
+li{
+  list-style: none;
+  padding: 25px;
+  color: blanchedalmond;
+}
+
+li:hover{
+  background-color: white;
+  color: black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+ .commentLink{
+  color: black;
+}
+
+.commentLink:hover{
+  text-decoration: underline;
+  color: green;
+} 
+
+.tenPostsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightslategray;
+  padding: 40px 0;
+}
+
+a {
+  text-decoration: none;
+  }
+
+a:hover {
+  color: gray;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: black;
+  }
+
+  li {
+    list-style: none;
+    padding: 15px;
+    color: blanchedalmond;
+  }
+
+  li:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .commentLink {
+    color: black;
+  }
+
+  .commentLink:hover {
+    text-decoration: underline;
+    color: green;
+  }
+
+  .tenPostsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    padding: 20px 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: gray;
+  }
+}
